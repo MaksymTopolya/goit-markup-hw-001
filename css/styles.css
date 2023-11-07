@@ -1,53 +1,59 @@
 body{
-    font-family: "Roboto", sans-serif;
-    background-color: #FFFFFF;
-    color: #434455
+    font-family: "Roboto",sans-serif;
+    background-color:#FFFFFF;
+    color:#434455
 }
-.web{
-    color: var(--IRIS, #4D5AE5);
+.web-stu{
         font-family: "Raleway", sans-serif;
-        font-size: 18px;
-        font-style: normal;
         font-weight: 700;
-        line-height: 21px;
-        letter-spacing: 0.54px;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
+        color:#4d5ae5;
+
 }
-.stu{
-    color: var(--NAVY-BLUE, #2E2F42);
-        font-family: "Raleway", sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 21px;
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
+.stud{
+    color:#2e2f42;
 }
 .list{
-    color: var(--NAVY-BLUE, #2E2F42);
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.32px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
 }
+.list :hover
+.list :focus{
+    color: #404bbf;
+}
+
 .address{
-    color: var(--SLATE, #434455);
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.32px;
+    font-style: normal;
 }
+.contacts{
+    color: #434455;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    font-size: 16px;
+}
+.contacts :hover
+.contacts :focus{
+    color:#404bbf;
+}
+
+
+
+
+
+
 .back{
     background: var(--NAVY-BLUE, #2E2F42)
 }
 .effective{
 color: var(--WHITE, #FFF);
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto",sans-serif;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
@@ -55,16 +61,22 @@ color: var(--WHITE, #FFF);
     letter-spacing: 1.12px;
 }
 .button{
-            font-family: 'Roboto', sans-serif;
+            font-family: "Roboto",sans-serif;
             font-size: 16px;
             font-style: normal;
             font-weight: 500;
             line-height: 24px;
             letter-spacing: 0.64px;
 }
+
+
+
+
+
+
 .head3{
 color: var(--NAVY-BLUE, #2E2F42);
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto",sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -73,7 +85,7 @@ color: var(--NAVY-BLUE, #2E2F42);
 }
 .about{
     color: var(--SLATE, #434455);
-        font-family: 'Roboto', sans-serif;
+        font-family: "Roboto",sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -83,7 +95,7 @@ color: var(--NAVY-BLUE, #2E2F42);
 .head2{
 color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto",sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -94,7 +106,7 @@ color: var(--NAVY-BLUE, #2E2F42);
 .name{
     color: var(--NAVY-BLUE, #2E2F42);
         text-align: center;
-        font-family: 'Roboto', sans-serif;
+        font-family: "Roboto",sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
@@ -104,7 +116,7 @@ color: var(--NAVY-BLUE, #2E2F42);
 .job{
     color: var(--SLATE, #434455);
         text-align: center;
-        font-family: 'Roboto', sans-serif;
+        font-family: "Roboto",sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -113,7 +125,7 @@ color: var(--NAVY-BLUE, #2E2F42);
 }
 .last{
     color: var(--CLOUD, #F4F4FD);
-        font-family: Roboto;
+        font-family: "Roboto",sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
